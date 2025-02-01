@@ -5,10 +5,13 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     private Vector2 moveInput;
     private Rigidbody2D rb;
+    private Animator animator;
+    private float currentSpeed = 0f;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         rb.gravityScale = 0; // Ensure gravity is disabled for top-down movement
     }
 
@@ -17,6 +20,10 @@ public class PlayerMovement : MonoBehaviour
         moveInput.x = Input.GetAxisRaw("Horizontal");  // A/D or Left/Right Arrow
         moveInput.y = Input.GetAxisRaw("Vertical");    // W/S or Up/Down Arrow
         moveInput.Normalize(); // Prevent diagonal movement from being faster
+
+        currentSpeed = moveInput.sqrMagnitude;
+
+        animator.SetFloat("Speed", currentSpeed);
     }
 
     void FixedUpdate()

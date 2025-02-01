@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6097069905364055089}
   - component: {fileID: -1290079568918410704}
   - component: {fileID: -3229897451235383042}
+  - component: {fileID: 5989068662607439766}
   m_Layer: 0
   m_Name: WaspHorizPatrol
   m_TagString: Untagged
@@ -121,8 +122,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f977b6f1d851404699bbe2f5be37a9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
-  chaseRange: 10
+  speed: 10
+  chaseRange: 9
   attackRange: 1
   visionAngle: 90
   obstacleLayer:
@@ -142,6 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   patrolDistance: 10
+  patrolOffset: 0
 --- !u!212 &-3229897451235383042
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -197,3 +199,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &5989068662607439766
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877034684622091169}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 88283e43913a946b69a9d26a6a99ca0b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

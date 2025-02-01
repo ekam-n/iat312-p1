@@ -12,6 +12,7 @@ public class EnemyAI : MonoBehaviour
     private bool isChasing = false;
     private IPatrol patrolBehavior;
     private LineRenderer visionLine;
+    private Animator animator;
 
     public static bool showVisionCones = false; // Global toggle for vision cones
 
@@ -38,6 +39,8 @@ public class EnemyAI : MonoBehaviour
         visionLine.material = new Material(Shader.Find("Sprites/Default"));
         visionLine.startColor = Color.yellow;
         visionLine.endColor = Color.yellow;
+
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -49,10 +52,13 @@ public class EnemyAI : MonoBehaviour
     if (playerInVisionCone)
     {
         isChasing = true;
+        animator.SetBool("isChasing", true);
     }
     else if (Vector2.Distance(transform.position, player.position) > chaseRange * 1.5f)
     {
         isChasing = false;
+        animator.SetBool("isChasing", false);
+
     }
 
     if (isChasing)
@@ -64,8 +70,10 @@ public class EnemyAI : MonoBehaviour
         patrolBehavior.Patrol();
     }
 
+    float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+
     // Attack if close to the player
-    if (Vector2.Distance(transform.position, player.position) < attackRange)
+    if (distanceToPlayer < attackRange)
     {
         Attack();
     }

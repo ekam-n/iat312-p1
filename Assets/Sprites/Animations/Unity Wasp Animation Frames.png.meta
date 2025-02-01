@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: ec5e6f487e5c94564be920e949fa3ff3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2332277410979469602
+    second: Unity Wasp Animation Frames_0
+  - first:
+      213: 3957295901297432676
+    second: Unity Wasp Animation Frames_1
+  - first:
+      213: -7278098714330569919
+    second: Unity Wasp Animation Frames_2
+  - first:
+      213: 1797581277362209272
+    second: Unity Wasp Animation Frames_3
+  - first:
+      213: 6556368968931698203
+    second: Unity Wasp Animation Frames_4
+  - first:
+      213: -4925110434149797154
+    second: Unity Wasp Animation Frames_5
+  - first:
+      213: -949074234788024190
+    second: Unity Wasp Animation Frames_6
+  - first:
+      213: 5406333351454830152
+    second: Unity Wasp Animation Frames_7
+  - first:
+      213: 6733452793412984902
+    second: Unity Wasp Animation Frames_8
+  - first:
+      213: -526117703367710222
+    second: Unity Wasp Animation Frames_9
+  - first:
+      213: -2502924917446048593
+    second: Unity Wasp Animation Frames_10
+  - first:
+      213: -6767195216135538442
+    second: Unity Wasp Animation Frames_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 650
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Unity Wasp Animation Frames_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 872
+        height: 1156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6a6e83d0612afd0800000000000000
+      internalID: -2332277410979469602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity Wasp Animation Frames_1
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 0
+        width: 851
+        height: 1156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46851f3d7a32be630800000000000000
+      internalID: 3957295901297432676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity Wasp Animation Frames_2
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 0
+        width: 806
+        height: 1156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1436914c7cffefa90800000000000000
+      internalID: -7278098714330569919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity Wasp Animation Frames_3
+      rect:
+        serializedVersion: 2
+        x: 2969
+        y: 0
+        width: 806
+        height: 1156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f14114d5aa42f810800000000000000
+      internalID: 1797581277362209272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity Wasp Animation Frames_4
+      rect:
+        serializedVersion: 2
+        x: 4049
+        y: 0
+        width: 806
+        height: 1156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16619117d6ecfa50800000000000000
+      internalID: 6556368968931698203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity Wasp Animation Frames_5
+      rect:
+        serializedVersion: 2
+        x: 5102
+        y: 0
+        width: 806
+        height: 1156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed27eec872e76abb0800000000000000
+      internalID: -4925110434149797154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity Wasp Animation Frames_6
+      rect:
+        serializedVersion: 2
+        x: 6057
+        y: 0
+        width: 851
+        height: 1156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280fbf9030634d2f0800000000000000
+      internalID: -949074234788024190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity Wasp Animation Frames_7
+      rect:
+        serializedVersion: 2
+        x: 6947
+        y: 0
+        width: 873
+        height: 1156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84eefc60a87270b40800000000000000
+      internalID: 5406333351454830152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity Wasp Animation Frames_8
+      rect:
+        serializedVersion: 2
+        x: 7825
+        y: 0
+        width: 916
+        height: 1156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6402e37e3a7027d50800000000000000
+      internalID: 6733452793412984902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity Wasp Animation Frames_9
+      rect:
+        serializedVersion: 2
+        x: 8758
+        y: 0
+        width: 956
+        height: 1156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f929bc7cbad2b8f0800000000000000
+      internalID: -526117703367710222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity Wasp Animation Frames_10
+      rect:
+        serializedVersion: 2
+        x: 9756
+        y: 0
+        width: 1014
+        height: 1156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa487247c03d34dd0800000000000000
+      internalID: -2502924917446048593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity Wasp Animation Frames_11
+      rect:
+        serializedVersion: 2
+        x: 10840
+        y: 0
+        width: 1044
+        height: 1156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8b4881ec71612a0800000000000000
+      internalID: -6767195216135538442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Unity Wasp Animation Frames_0: -2332277410979469602
+      Unity Wasp Animation Frames_1: 3957295901297432676
+      Unity Wasp Animation Frames_10: -2502924917446048593
+      Unity Wasp Animation Frames_11: -6767195216135538442
+      Unity Wasp Animation Frames_2: -7278098714330569919
+      Unity Wasp Animation Frames_3: 1797581277362209272
+      Unity Wasp Animation Frames_4: 6556368968931698203
+      Unity Wasp Animation Frames_5: -4925110434149797154
+      Unity Wasp Animation Frames_6: -949074234788024190
+      Unity Wasp Animation Frames_7: 5406333351454830152
+      Unity Wasp Animation Frames_8: 6733452793412984902
+      Unity Wasp Animation Frames_9: -526117703367710222
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
