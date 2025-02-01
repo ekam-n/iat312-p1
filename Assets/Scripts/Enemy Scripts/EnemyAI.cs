@@ -13,6 +13,7 @@ public class EnemyAI : MonoBehaviour
     private IPatrol patrolBehavior;
     private LineRenderer visionLine;
     private Animator animator;
+    private Vector3 initialPosition;
 
     public static bool showVisionCones = false; // Global toggle for vision cones
 
@@ -24,6 +25,7 @@ public class EnemyAI : MonoBehaviour
             Debug.LogError("Player not found! Make sure the Player GameObject has the 'Player' tag.");
         }
 
+        initialPosition = transform.position; // Save the initial position
         patrolBehavior = GetComponent<IPatrol>();
 
         // Setup LineRenderer for Vision Cone
@@ -102,6 +104,13 @@ void OnCollisionEnter2D(Collision2D collision)
             playerHealth.KillPlayer();
         }
     }
+}
+
+public void ResetPosition()
+{
+    transform.position = initialPosition; // Reset to the original position
+    isChasing = false; // Stop chasing
+    animator.SetBool("isChasing", false);
 }
 
 

@@ -24,6 +24,11 @@ public class PlayerMovement : MonoBehaviour
         currentSpeed = moveInput.sqrMagnitude;
 
         animator.SetFloat("Speed", currentSpeed);
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     void FixedUpdate()

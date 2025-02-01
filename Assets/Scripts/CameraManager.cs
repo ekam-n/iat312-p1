@@ -47,4 +47,10 @@ public class CameraManager : MonoBehaviour
         mainCamera.transform.position = newPosition;
         mainCamera.orthographicSize = targetZoom;
     }
+
+    public void MoveCameraToPosition(Vector3 position)
+{
+    StartCoroutine(SmoothCameraTransition(position, mainCamera.orthographicSize));
+}
+
 }
