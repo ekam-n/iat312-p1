@@ -22,28 +22,6 @@
 - **Programming Language**: C#
 - **Version Control**: Git & GitHub
 
-## 📂 Project Structure
-```
-YellowJacketEscape/
-│── Assets/
-│   ├── Materials/
-│   ├── Prefabs/
-│   │   ├── Player.prefab
-│   │   ├── YellowJacket.prefab
-│   │   ├── Projectile.prefab
-│   ├── Scenes/
-│   ├── Scripts/
-│   │   ├── Enemy Scripts/
-│   │   │   ├── EnemyAI.cs
-│   │   │   ├── MeleeAttack.cs
-│   │   │   ├── RangedAttack.cs
-│   │   ├── Player Scripts/
-│   │   │   ├── PlayerMovement.cs
-│   │   │   ├── PlayerHealth.cs
-│   ├── Sprites/
-│── README.md
-```
-
 ## 🎮 How to Play
 1. **Move** the player using the keyboard (WASD or Arrow Keys).
 2. **Avoid or fight enemies**:
