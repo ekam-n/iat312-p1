@@ -26,27 +26,7 @@
 1. **Move** the player using the keyboard (WASD or Arrow Keys).
 2. **Avoid or fight enemies**:
    - Melee enemies will kill you instantly.
-   - Ranged enemies will shoot projectiles at you.
 3. **Survive** as long as possible while exploring the map.
 4. **Game Over** occurs when you are hit by 2 projectiles or collide with a melee enemy.
 
-## 🔧 Setup Instructions
-1. **Clone the Repository**
-   ```sh
-   git clone https://github.com/yourusername/yellowjacket-escape.git
-   cd yellowjacket-escape
-   ```
-2. **Open in Unity**:
-   - Open Unity Hub and select `YellowJacketEscape`.
-3. **Run the Game**:
-   - Click `Play` in Unity’s Editor to start testing.
-
-## 👾 Future Improvements
-- Add **pathfinding for enemies** (NavMesh or A* Algorithm).
-- Implement **waypoints for enemy patrols**.
-- Introduce **power-ups & collectibles**.
-- Expand levels with **dynamic tilemaps**.
-
-
 🚀 *Enjoy escaping the YellowJackets!*
-
