@@ -1,7 +1,7 @@
 # YellowJacket Escape - A 2D Dungeon Crawler
 
 ## 🎮 Project Overview
-**YellowJacket Escape** is a top-down 2D dungeon crawler where the player, controlling a small character, must navigate through hazardous environments while avoiding or confronting YellowJacket enemies. The game emphasizes strategic movement, enemy interactions, and survival mechanics.
+**YellowJacket Escape** is a top-down 2D dungeon crawler where the player, controlling a small spider, must navigate through hazardous environments while avoiding or confronting YellowJacket enemies. The game emphasizes strategic movement, enemy interactions, and survival mechanics.
 
 ## 🚀 Features
 - **Tilemap-based level design** using Unity's Tilemap system.
